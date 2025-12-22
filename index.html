@@ -9,6 +9,30 @@
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #1e3a5f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
     }
     .image-gallery {
       display: flex;
@@ -22,37 +46,78 @@
       border-radius: 8px; 
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
+    ul {
+      font-size: 18px;
+      line-height: 1.6;
+      padding-left: 0;
+      list-style-position: inside;
+    }
+    li {
+      font-size: 18px;
+      padding-left: 10px;
+    }
     
 
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
 
-    table, th, td {
+     th, td {
   border: 1px solid black;
+  padding: 10px;
+  text-align: center;
 }
-@media (max-width: 600px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px, 1fr));
+    gap: 15px;
+  }
+
+  p {
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 1.6;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+  aside {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  footer a {
+    color: #ffd700;
+  }
+
+@media (max-width: 768px) {
   body { font-size: 14px; }
   .container { padding: 10px; }
-  .grid { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: 1fr; 
+  }
 }
 
     
   </style>
 <body>
-<h1>Sadra's Kitchen electronics </h1>
-<p>For they are electrial appliances designed to make cooking, food preparation and storage easier, faster and more efficient.</p>
-<img src=https://t3.ftcdn.net/jpg/08/78/39/64/360_F_878396410_CdSv1IGLPeUeS2GuIiEYwWDWohIxUFte.jpg>
-
-<h2>Ways for maintaining Kitchen Appliances Work.</h2>
-<p>Keeping your kitchen appliances is convenient and will help them last a long time and be effective.</p>
-<p>improve the performance, and extend the life of your appliances.</p>
-<p>like the kettle and toaster always unplug when not in use for this not only saves a little bit of energy but minimises the risk of electrical issues. </p>
-<img src=https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500>
-
-<h2>Home kitchen electronics categories</h2>
-<ul>
-<li>large appliances</li>
-<li>Food preparation appliances</li>
-<li>cooking and beverage appliances</li>
-</ul>
 <head>
 <title>Sadra's Home kitchen Electronics</title>
 </head>
@@ -65,11 +130,24 @@
  <a href="https://kesadra90-dotcom.github.io/24-3196/" target="_blank">My Github</a> |
 <a href="#contact">Contact</a>
 </nav>
+<p>They are electrial appliances designed to make cooking, food preparation and storage easier, faster and more efficient.</p>
+<img src=https://t3.ftcdn.net/jpg/08/78/39/64/360_F_878396410_CdSv1IGLPeUeS2GuIiEYwWDWohIxUFte.jpg>
+
+<h2>Ways for maintaining Kitchen Appliances Work.</h2>
+<p>It improve the performance and extend the life of your appliances, keeping your kitchen appliances look convinient and will help them to last a long time and will be effective.</p>
+<img src=https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500>
+
+<h2>Home kitchen electronics categories</h2>
+<p>I started about blogging about kitchen tech to share my tour into the world of smart kitchen appliances and how they transformed my cooking experience.</p>
+<ul>
+<li>Speciallity appliances</li>
+<li>Food preparation appliances</li>
+<li>cooking and beverage appliances</li>
+</ul>
 
 <main>
 <section>
 <article>
-<p>I started about blogging about kitchen tech to share my tour into the world of smart kitchen appliances and how they transformed my cooking experience.</p>
 <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Breville.jpg/400px-Breville.jpg>
 <img src=https://www.shutterstock.com/image-photo/modern-toaster-other-home-appliances-260nw-1925622083.jpg>
 </article>
@@ -84,9 +162,7 @@
 <img src=https://t3.ftcdn.net/jpg/03/13/32/66/360_F_313326626_DzL4o62hK6J9nMzstD6kB5tFaYRAg19j.jpg>
 </aside>
 </main>
-<footer>
-<p>&copy; 2025 Sadra's home kitchen electronics</p>
-</fotter>
+
 <title>Home kitchen posts table</title>
 <head>
 <body>
@@ -123,11 +199,11 @@
 <h2>Kitchen gadgets video</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1KWoJRzla5M?si=UCHE6rdU1RB0X3R_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NUgd_5s1A4o?si=UNd1P5yHNHWjFKvd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p class="px">it shows you about the gadgets that will take you to the next level</p>
+<p class="px">Helps to upgrade your kitchen experience</p>
 <div class="parent">
 <p class="em">it includes smart measuring tools and cooking devices</p>
 </div>
-<p class="rem">Helps upgrade your kitchen experience</P>
+<p class="rem">It shows you about the gadget that will take you to the next level</P>
 </section>
 
 <table>
@@ -173,7 +249,7 @@
   <footer id="contact">
     <h3>Contact Us:</h3>
     <p>Email: <a href="mailto:sadrahomeelectronics@gmail.com">sadrahomeelectronics@gmail.com</a></p>
-    <p>Phone: <a href="tel:+254782842629">+254782842629</a></p>
+    <p>Phone: <a href="tel:+254715392190">+254715392190</a></p>
     <p>&copy; 2025 Sadra's Home Kitchen Electronics</p>
   </footer>
 
